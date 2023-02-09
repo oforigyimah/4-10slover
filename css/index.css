@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: #9b6c6c;
+}
+#container {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+#slover {
+  background-color: #d1d7e6;
+  width: 364px;
+  height: 624px;
+  margin: 1.5rem auto;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#screen {
+  height: 200px;
+}
+
+#solution {
+  color: #50353c;
+  text-align: center;
+  height: 60px;
+  padding: 20px;
+  font-size: 2.5rem;
+}
+
+#num-output {
+  color: #9b6c6c;
+  text-align: left;
+  height: 100px;
+  padding: 20px;
+  font-size: 3rem;
+}
+
+#keyboard {
+  height: 400px;
+  position: center;
+  margin-block: auto 100px;
+}
+.num-input {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  float: center;
+  border-radius: 50%;
+  border-width: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#cal {
+  width: 150px;
+  height: 70px;
+  float: center;
+  border-radius: 5px;
+  border-width: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#clicked-buttons{
+	color: red;
+}
