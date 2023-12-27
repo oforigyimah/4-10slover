@@ -54,7 +54,7 @@ cal.addEventListener("click", function () {
   passAns = [];
   for (obj of answers) {
     if (obj.result == 10) {
-      passAns =+ obj.combination;
+      passAns = [...passAns, obj.combination];
       
     }
     document.getElementById("solution").innerText = passAns[0];
