@@ -57,6 +57,6 @@ cal.addEventListener("click", function () {
       passAns = [...passAns, obj.combination];
       
     }
-    document.getElementById("solution").innerText = passAns;
+    document.getElementById("solution").innerText = passAns[0];
   }
 });
